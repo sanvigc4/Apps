@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+}
+
+#apps {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(to bottom right, yellow 50%, green);
+    color: darkmagenta;
+}
+
+.line {
+    height: 10px;
+    background-color: crimson;
+    width: 150px;
+    margin: 8px auto;
+}
+
+#myCarousel {
+    background: linear-gradient(to bottom left, #3c0d54, #2fccc7);
+}
+
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px;
+}
+
+.carousel-inner p {
+    margin-bottom: 35px;
+    margin-top: 35px;
+    color: white;
+    font-size: 25px;
+}
+
+#chatbot {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(to bottom, #f7b23b, #ff87f1);
+    color: #008080;
+}
+
+html {
+    background-color: darkorange;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: white;
+}
+
+img:hover {
+    transform: scale(1.1)
+}
